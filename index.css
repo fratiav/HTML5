@@ -17,10 +17,19 @@ body{
 nav{
     background-color: rgba(0, 0, 0, 0.521);
     color: whitesmoke;
+    border-radius: 5px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    box-shadow: tomato 5px 10px 10px;
 }
 
 nav li{
     display: inline;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 aside{
