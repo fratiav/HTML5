@@ -24,6 +24,14 @@ nav{
     box-shadow: tomato 5px 10px 10px;
 }
 
+img{
+    -webkit-transition: -webkit-transform 1s ease;
+}
+
+img:hover{
+    -webkit-transform: rotate(360deg);
+}
+
 nav li{
     display: inline;
     font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
